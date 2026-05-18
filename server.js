@@ -117,7 +117,7 @@ app.get('/crawl', async (req, res) => {
 
   const id = await crawl(target);
 
-  res.send(`Crawl complete. View at https://searchmium-crawler./crawled.html?id=${id}`);
+  res.send(`Crawl complete. View at https://searchmium-crawler1.onrender.com/crawled.html?id=${id}`);
 });
 
 app.get('/crawled.html', (req, res) => {
